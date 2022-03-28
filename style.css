@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Shrikhand & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+body{
+   font-size: 100%;
+   background:linear-gradient( -45deg, #8EEAF0 15%,#A5C9E2,#C1A9D7,
+   #ED7FC8,#DFB2E5);
+   background-size: 400% 400%;
+   position: relative;
+   animation: change 10s ease-in-out infinite;
+  
+}
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.cabecalho{
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  width: 100%;
+  
+  
+}
+.cabecalho-imagem{
+  height: 72px;
+}
+.cabecalho-menu{
+  display: flex;
+  gap: 32px;
+}
+.cabecalho-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #970b6d;
+  font-weight: 400;
+  font-size: 18px;
+  flex-wrap: wrap;
+ 
+}
+
+.cabecalho-menu:hover {
+  text-shadow:0 0 8px #0ee2f1e5 ;
+}
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid rgb(190, 241, 245);
+}
+.conteudo-pricipal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 3em;
+}
+.conteudo-principal-escrito-subtitulo{
+  font-family: 'Patrick Hand', cursive;
+  color: #070004;
+  font-weight: 400;
+  font-size: 30px;
+
+}
+.conteudo-principal-escrito-titulo{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  color:#72023e;
+}
+.conteudo-secundario-titulo{
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-size: 18px;
+}
+.conteudo-principal-escrito-botao{
+  background: #ffffff98;
+  width: 180px;
+  height: 60px;
+  border: rgb(12, 12, 12);
+  box-shadow: 4px 5px 4px rgba(248, 19, 172, 0.363);
+  border-radius: 20px;
+  font-family: 'Shrikhand', cursiva;
+  font-weight: 400;
+  font-size: 25px;
+  
+}
+.conteudo-principal-escrito-botao:hover{
+  background-color: #e4add19f;
+  text-shadow:0 0 8px #0ee2f1e5 ;
+}
+.conteudo-principal-imagem{
+  height: 200px;
+  
+}
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  gap: 24px ;
+  margin-top: 150px;
+}
+.conteudo-secundario-titulo{
+ border-top: 0.4px solid #72023e;
+ padding-top: 48px ;
+ font-family:'Patrick Hand', cursive ;
+ font-size: 25px;
+ color: #72023e;
+ margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+ font-family: Arial, Helvetica, sans-serif; 
+ font-weight: 300px;
+ font-size: 13px;
+}
+.rodape{
+  padding:2px;
+  border-top: 0.4px solid #72023e;
+  text-align: center;
+ 
+}
+.rodape-imagem{
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+footer >h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+}
+footer> p{
+  
+  display: inline;
+  
+  
+ 
+}
